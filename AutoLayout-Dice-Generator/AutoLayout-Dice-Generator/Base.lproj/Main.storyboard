@@ -54,6 +54,9 @@
                                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="50"/>
                                                     <color key="baseBackgroundColor" red="0.075378067790000003" green="0.1083385274" blue="0.097843699160000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="rollButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DL1-7G-TwE"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -73,6 +76,10 @@
                             <constraint firstItem="9o1-JX-E67" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rok-9i-I78"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="diceImageViewOne" destination="DcF-Ml-bRJ" id="MqX-1Y-YEw"/>
+                        <outlet property="diceImageViewTwo" destination="87Q-2L-AYL" id="Wuh-EM-Pka"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
